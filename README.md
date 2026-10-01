@@ -1,12 +1,14 @@
 # Tesseron C++ SDK
 
-C++ half of the [Tesseron](https://eigenwise.github.io/tesseron/) protocol: your
+Created and maintained by [Eigenwise](https://eigenwise.io).
+
+C++ half of the [Tesseron](https://tesseron-dev.github.io/tesseron/) protocol: your
 application binds a loopback WebSocket, writes an instance manifest, and the MCP
 gateway dials *in*. There is no port to configure and no gateway address to
 point at.
 
-This repository is [Eigenwise/tesseron-cpp](https://github.com/Eigenwise/tesseron-cpp).
-The [Tesseron hub](https://github.com/Eigenwise/tesseron) holds the protocol,
+This repository is [tesseron-dev/tesseron-cpp](https://github.com/tesseron-dev/tesseron-cpp).
+The [Tesseron hub](https://github.com/tesseron-dev/tesseron) holds the protocol,
 docs, and issue tracker.
 
 Two targets live here:
@@ -156,7 +158,7 @@ Consuming it from another project:
 ```cmake
 include(FetchContent)
 FetchContent_Declare(tesseron
-                     GIT_REPOSITORY https://github.com/Eigenwise/tesseron-cpp.git
+                     GIT_REPOSITORY https://github.com/tesseron-dev/tesseron-cpp.git
                      GIT_TAG v0.1.0)
 FetchContent_MakeAvailable(tesseron)
 target_link_libraries(your_app PRIVATE tesseron::tesseron)

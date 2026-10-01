@@ -4,7 +4,7 @@ project(
   tesseron
   VERSION 0.2.0
   DESCRIPTION "C++ SDK for the Tesseron protocol"
-  HOMEPAGE_URL "https://eigenwise.github.io/tesseron/"
+  HOMEPAGE_URL "https://tesseron-dev.github.io/tesseron/"
   LANGUAGES CXX)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")

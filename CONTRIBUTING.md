@@ -26,7 +26,7 @@ Use clang and Ninja locally. CI also builds with MSVC on Windows.
 ## Docs and releases
 
 The protocol, SDK docs, and issue tracker live in the
-[Tesseron hub](https://github.com/Eigenwise/tesseron). C++ SDK docs live there
+[Tesseron hub](https://github.com/tesseron-dev/tesseron). C++ SDK docs live there
 under `docs/src/content/docs/sdk/cpp`.
 
 An SDK release PR is complete only after its required hub docs PR has merged.
